@@ -11,3 +11,9 @@ h1 {
     margin: 0;
     padding: 0,5;
 }
+
+.row {
+    background-color: black;
+    color: white;
+    
+}
