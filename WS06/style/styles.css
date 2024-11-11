@@ -1,0 +1,106 @@
+
+body {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica;
+    border: 1px solid gray;
+    flex-direction: column;
+    height: fit-content;
+  }
+  
+header,
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #000080;
+    clear: left;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    position: relative;
+    left: 20px;
+}
+
+nav {
+    padding: 1em;
+    color: white;
+    background-color: grey;
+
+}
+div.container {
+    width: 100%;
+}  
+
+section {
+    background-color: lightsteelblue;
+}
+.wrapper {
+    display: flex;
+}
+.wrapper > div {
+    flex: 1;
+    text-align: center;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}  
+#nav2 {
+    float: left;
+    width: 15%;
+    background: lightgrey;
+    height: 250px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+  }
+nav ul li {
+    margin-bottom: 10px;
+}
+
+#kuva1 {
+    padding-left: 15px;
+    margin: 5px;
+  }
+  
+  #kuva2 {
+    padding-left: 15px;
+    margin: 5px;
+  }
+  a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  third > div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  

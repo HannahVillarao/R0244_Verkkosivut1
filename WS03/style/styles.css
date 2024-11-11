@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-color:black;
+}
+h1 {
+    font-size:20px;
+}
+p { 
+    font-size:12px;
+ }
+ div p { color: lightgray; }
+ .MyDiv {
+    border: dotted; 
+ }
+ div {
+    border-radius: 2px;
+    width: 100px;
+    height: 100px;
+ }

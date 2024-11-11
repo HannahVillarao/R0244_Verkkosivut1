@@ -1,0 +1,18 @@
+body {
+    color: white;
+    background-color:rgb(209, 131, 224);
+   
+    font-family: "Arial";
+}
+
+p { 
+    font-size:20px;
+ }
+
+ .btn { background-color: red;
+
+}
+
+#nappi { 
+    font-size:xx-large;
+}
