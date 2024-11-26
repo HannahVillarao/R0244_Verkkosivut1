@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Exercise</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Forms Exercise</h1>
+        <p>Use this template to create forms below.</p>
+    </header>
+    <div class="container">
+        <h2>Task</h2>
+        <p>Create a form for user registration. The form should include:</p>
+        <ul>
+            <li>Input fields: First Name, Last Name, Email</li>
+            <li>A dropdown for selecting the country</li>
+            <li>A textarea for comments</li>
+            <li>A submit button</li>
+        </ul>
+        <h2>Sinun ikioma Form</h2>
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            
+            <label for="country">Country:</label>
+
+            <select name="country" id="country">
+                <option value="finland">Finland</option>
+                <option value="sweden">Sweden</option>
+                <option value="norway">Norway</option>
+            </select>
+            
+            <label for="comments">Comments:</label><br>
+            <input type="text" id="comments" name="comments"><br>
+            <br>
+            <input type="submit" value="Submit">
+        
+        </form>
+
+        <h2>Task 2</h2>
+        <p>Create a login form. The form should include:</p>
+        <ul>
+            <li>Input fields: Username, Password</li>
+            <li>A remember me checkbox</li>
+            <li>A submit button</li>
+        </ul>
+        <h5>Sinun ikioma Login Form</h5>
+        
+
+        <h2>Task 3</h2>
+        <p>Create a feedback form. The form should include:</p>
+        <ul>
+            <li>Input fields: Name, Email</li>
+            <li>Radio buttons for rating (1-5)</li>
+            <li>A textarea for detailed feedback</li>
+            <li>A submit button</li>
+        </ul>
+        <h5>Sinun ikioma Feedback Form</h5>
+
+        <form action="/submit-feedback" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <div class="rating">
+                <label for="rating">Rating</label>
+                <input type="radio" id="rating1" name="rating" value="1">
+                <label for="rating1">1</label>
+                <input type="radio" id="rating2" name="rating" value="2">
+                <label for="rating2">2</label>
+                <input type="radio" id="rating3" name="rating" value="3">
+                <label for="rating3">3</label>
+                <input type="radio" id="rating4" name="rating" value="4">
+                <label for="rating4">4</label>
+                <input type="radio" id="rating5" name="rating" value="5">
+                <label for="rating5">5</label>
+            </div><br><br>
+
+            <label for="feedback">Detailed Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit">
+
+            <h2>Task 4</h2>
+            <p>Create a multi-step form. The form should include:</p>
+            <ul>
+                <li>Step 1: Personal Information (First Name, Last Name, Email)</li>
+                <li>Step 2: Address Information (Street, City, State, Zip Code)</li>
+                <li>Step 3: Account Information (Username, Password, Confirm Password)</li>
+                <li>Navigation buttons to move between steps (Next, Previous)</li>
+                <li>A final submit button on the last step</li>
+            </ul>
+            <h5>Sinun ikioma Multi-step Form</h5>
+            
+
+            <div id="nav">
+                <a href="./index.html">Mene Tauluun</a>
+            </div>
+    </div>
+
+</body>
+
+</html>
